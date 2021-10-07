@@ -1,0 +1,12 @@
+-Here, "test_blind_deconv.m" is the main code. Please run the code and it will ask you to input the blurred image.
+ Sample image files used in this paper are given in "Test Images" folder.
+ The author of the paper has changed the kernel for different images for a better output. 
+ So, to change the kernel size, please do to line-58 (of "test_blind_deconv.m") 
+ and change the value of "opts.kernel_size".
+
+-"ms_blind_deconv.m" and "ss_blind_deconv.m" functions are used for multi-scale and single-scale deconvolution 
+  operation.
+
+-"center_kernel_separate.m", "fast_deconv_bregman.m", "pcg_kernel_core_irls_conv.m", "pcg_kernel_irls_conv.m"
+  "solve_image_bregman.m", and "test_blind_deconv_params.m" functions are used for setting the parameters for 
+   the main function, normalization using ISTA, and Kernel generation using IRLS algorithm.
